@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+ button{
+     background-color: darkred;
+ }
+
+    </style>
+    <script type="text/javascript">
+    
+        var price=0.0;
+        var name;
+        var monthlyinstallment=0.0;
+        
+        
+         name=prompt("Enter your name:","");
+         var price=prompt("Write the price of the phone when buying =num1","1");
+         
+          var total=0.0 ;
+          total=price;
+          Compensationamount=total/2.0;
+          monthlyinstallment= Compensationamount/12.0;
+                
+                document.write("<center><h2>"+name);
+                document.write("<br><br><table border=1");
+                document.write("<tr><td> Compensationamount</td>");
+                document.write("<td>"+Compensationamount+"</td></tr>");
+                document.write("<tr><td>monthlyinstallment</td>");
+                document.write("<td>"+monthlyinstallment+"</td></tr>");
+                
+    </script>
+    <br>
+      <button><a href="payment page.html">Go to the payment page</a></button>
+     <button><a href="DNA main.html">Back to home page</a></button>
+</body>
+</html>

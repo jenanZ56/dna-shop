@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscription page</title>
+    <script type="text/javascript">
+    
+        
+        var Insurancetype;
+        VarDate=0;
+        
+        Insurancetype=prompt("Enter your type of insurance");
+         VarDate=prompt("Enter the year of the insurance expiry");
+         
+          if(VarDate>=2023){
+            document.write("Your subscription period has not expired");
+            window.location.href = ("frstpage.html");
+            
+          }       
+    </script>
+     
+</head>
+<body>
+    <style>
+h2,h3,h4,h5,h6,h7
+{
+    font-size: 20px;
+}
+body{
+    background-color:#eea552;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+#from{
+    width: 800px;
+    background-color:rgb(0,0,0,0.6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.bf{
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+}
+#name{
+   margin-left: 25px;
+   margin-top:20px;
+   width: 125px;
+   font-size: 18px;
+   font-weight: 700;
+   color:cornsilk;
+   
+}
+#firstname{
+    position: relative;
+    left: 200px;
+    top: -30px;
+    line-height: 40px;
+     border-radius: 6px;
+     padding: 0 22px;
+}
+#lastname{
+   position: relative;
+   left:500px;
+   top:-95px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555;
+}
+#firstlablel{
+    position: relative;
+    color:#e5e5e5;
+    text-transform: capitalize;
+    font-size: 20px;
+    left:250px;
+    top:10px;
+
+}
+#lastlable{
+    position: relative;
+    color:#e5e5e5;
+    text-transform: capitalize;
+    font-size: 20px;
+    left:560px;
+    top:-50px;
+
+}
+form{
+    padding: 10px;
+    
+}
+#phone1{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 700;
+    color:#e5e5e5;
+}
+#phone{
+    position: relative;
+    left: 200px;
+    top: -30px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+#Email1{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 700;
+    color:cornsilk;
+}
+#Email{
+    position: relative;
+    left: 200px;
+    top: -30px;
+    line-height: 20px;
+     border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     
+}
+
+#Date1{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 700;
+    color:cornsilk;
+}
+#date{
+    position: relative;
+    left: 200px;
+    top: -60px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+  #type{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 700;
+    color:cornsilk;
+}
+#buttom{
+    position: relative;
+    left: 200px;
+    top: -30px;
+    line-height: 20px;
+     border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+}
+
+button{
+    background-color:#e4983c;
+    display: block;
+    margin: 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #e4983c ;
+    padding: 14px 110px;
+    outline: none;
+    color:white;
+    cursor: pointer;
+    transition: 0.25px;
+    
+
+}
+
+    </style>
+    <div id="from"><h1>Renew your subscription from</h1></div>
+    <br>
+    
+
+    <div class="bf">
+        <form>
+
+<div id="name">
+<br>
+<h2 id="name">Name</h2>
+<input id="firstname" type="rext" name="first_name">
+<label id="firstlablel">first name </label>
+<br>
+<input id="lastname" type="text"name="last_name">
+<labe1 id="lastlable">lastname</label>
+<br>
+<br>
+</div>
+
+
+<h3 id="phone1">phone number</h3>
+<input id="phone" type="number">
+<br>
+<br>
+
+<h4 id="Email1">Email</h4>
+<input id="Email" type="text">
+
+<br>
+<br>
+<h6 id="Date1"> Subscription renewal date </h6>
+<input id="date" type="date" name="date">
+
+<br>
+<br>
+<h7 id="type">Insurance type</h7>
+<br>
+<br>
+<div id="buttom">
+<label class="home">Home insurance </label>
+<input type="radio" name="D1"> 
+<label class="Health">Health insurance </label>
+<input type="radio" name="D1"> 
+<label class="car">car insurance</label>
+<input type="radio" name="D1"> 
+<label class="life">life insurance</label>
+<input type="radio" name="D1"> 
+<br>
+<label class="Travel">Travel insurance</label>
+<input type="radio" name="D1"> 
+<label class="phone">phone insurance</label>
+<input type="radio" name="D1"> 
+<br>
+<br>
+</div>
+<center>
+<div id="fbuttom">
+
+<button>
+    <a href="payment page.html">paying </a>
+    </button>
+
+<button type="reset">
+    <a href="frstpage.html">Reset Values</a>
+    </button>
+</div>
+   </center>     
+        
+    
+    </div>
+        </form>
+<br>
+
+</body>
+</html>

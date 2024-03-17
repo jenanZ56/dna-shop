@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+  background-color: rgb(247, 203, 93);
+}
+form{
+    width: 800px;
+    background-color:rgb(0,0,0,0.6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+input[type=text] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+
+button{
+    
+    text-align: center;
+    border-radius: 12px;
+    padding: 14px 110px;
+    outline: none;
+    color:white;
+    
+    
+}
+
+</style>
+</head>
+<body>
+
+
+            <form>
+  <h2>Payment page</h2>
+<p>When registering the data, paying the insurance premium, 
+it will be deducted directly at the beginning of each month</p>
+
+
+            <h3>Personal data</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" >
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" >
+         
+
+        
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" >
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" >
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" >
+            
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" >
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" >
+                
+             <center>
+              <button><a href="frstpage.html">paying </a></button>
+              <br>
+              <br>
+              <button><a href="Add a review to the service.html">Please rate the service</a></button>
+              
+              </center>
+        
+        
+        
+      </form>
+
+</body>
+</html>
